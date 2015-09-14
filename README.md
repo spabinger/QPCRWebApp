@@ -34,6 +34,7 @@ If you're getting a "Plate has no values to analyse" error message during parsin
 ## Errors during parsing
 **File could not be parsed**
 Please make sure that you assign a name for all wells (especially when using Abi SDS). QPCR takes this name as sample name and uses it later in subsequent analysis steps.
+
 **File Format not supported - Unexpected length of RAW section**
 The SDS file seems to be corrupted. Please try to save it again and re-upload it into the QPCR application.
 
