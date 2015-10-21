@@ -5,11 +5,11 @@ www.icbi.at/qpcr
 
 
 ## Installation: Troubleshooting
-JAVA problem
+######JAVA problem######
 * Possible solution:
 The main sticking point was the location of JRE required by the software. I had to set the path for JAVA_HOME to the location of JRE within the JDK directory because the path ../server/jmv.dll was located there. The other issue was that you had to start the servers an administrator or they wouldn’t work.
 
-PostgreSQL problem:
+######PostgreSQL problem######
 When using a PostgreSQL version >9.0 the database needs to be adjusting using this command
 ```
 ALTER DATABASE database_name SET bytea_output TO 'escape';
