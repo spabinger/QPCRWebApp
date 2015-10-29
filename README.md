@@ -16,6 +16,10 @@ ALTER DATABASE database_name SET bytea_output TO 'escape';
 ```
 See: http://badrit.com/blog/2011/1/19/postgresql-9-bytea-type-problems#.VieYhXVSuko
 
+######Suse problem######
+We have experienced problems when installing QPCR on the Suse distribution (probably an issue with the Java installation). If possible, please use another distribution (e.g., Ubuntu).
+
+
 ## Installation: Checks
 After installation there are a couple of things you could do to check if the system is running properly:
 * Check if both QPCR and the Usermanagement system are up and running
